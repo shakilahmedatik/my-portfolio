@@ -12,9 +12,9 @@ const greeting = {
   logo_name: "Atik",
   nickname: "Atik",
   full_name: "Shakil Ahmed Atik",
-  subTitle: "“I am committed to push my branch to the master”",
+  subTitle: "Focused on providing programming excellence.",
   resumeLink:
-    "https://drive.google.com/file/d/1EBV5Bzs1Loh9oHuaYrugprkL5uTHAxv_/view?usp=sharing",
+    "https://drive.google.com/file/d/18yxbENFwmDO_gr6E6cLIb8oa4z-4KVxK/view?usp=sharing",
   mail: "mailto:shakilatik@gmail.com",
 };
 

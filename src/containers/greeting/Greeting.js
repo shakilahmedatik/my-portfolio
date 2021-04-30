@@ -31,13 +31,13 @@ export default function Greeting(props) {
                 <Typical
                   steps={[
                     "Software Engineer",
-                    1000,
+                    1200,
                     "Web Developer",
-                    1000,
+                    1200,
                     "Android/ios Developer",
-                    1000,
+                    1200,
                     "ML & AI Enthusiast",
-                    1000,
+                    1200,
                   ]}
                   loop={Infinity}
                   wrapper="span"
@@ -48,21 +48,20 @@ export default function Greeting(props) {
                 style={{ color: theme.secondaryText }}
               >
                 {greeting.subTitle}
-                <span style={{ color: theme.accentColor }}>
-                  ― Halgurd Hussein.{" "}
-                </span>
               </p>
               <SocialMedia />
               <div className="portfolio-repo-btn-div">
-                <button
+                <br />
+                <br />
+                <a
                   {...styles}
-                  className="button"
-                  onClick={() => {
-                    history.push("/contact");
-                  }}
+                  className="general-btn"
+                  href={greeting.resumeLink}
+                  rel="noopener noreferrer"
+                  target="_blank"
                 >
-                  Contact Me
-                </button>
+                  See my Resume
+                </a>
               </div>
             </div>
           </div>
