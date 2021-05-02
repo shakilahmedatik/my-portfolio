@@ -2,7 +2,7 @@
 const settings = {
   isSplash: true, // Change this to true if you want to use the splash screen.
   useCustomCursor: true, // Change this to false if you want the good old cursor
-  googleTrackingID: "UA-174238252-2",
+  // googleTrackingID: "UA-174238252-2",
 };
 
 //Home Page
@@ -16,6 +16,8 @@ const greeting = {
   resumeLink:
     "https://drive.google.com/file/d/18yxbENFwmDO_gr6E6cLIb8oa4z-4KVxK/view?usp=sharing",
   mail: "mailto:shakilatik@gmail.com",
+  downloadLink:
+    "https://drive.google.com/u/0/uc?id=18yxbENFwmDO_gr6E6cLIb8oa4z-4KVxK&export=download",
 };
 
 const socialMediaLinks = {
@@ -392,16 +394,16 @@ const certifications = {
       subtitle: "Calculus, Discrete Math, Linear Algebra",
       logo_path: "math.jpg",
       certificate_link:
-        "https://www.udemy.com/certificate/UC-24664b4e-375e-46c7-9096-dd8f98a2267f/",
+        "https://www.udemy.com/certificate/UC-a44c6983-33f6-4d2f-badb-de9f3e58e528/",
       alt_name: "Agile, Scrum, Kanban & XP",
       color_code: "#47A048",
     },
     {
-      title: "Agile Project Management",
-      subtitle: "Agile, Scrum, Kanban & XP",
-      logo_path: "agile.jpg",
+      title: "Alteryx Masterclass",
+      subtitle: "Data Analytics, ETL & Reporting",
+      logo_path: "alteryx.jpg",
       certificate_link:
-        "https://www.udemy.com/certificate/UC-24664b4e-375e-46c7-9096-dd8f98a2267f/",
+        "https://www.udemy.com/certificate/UC-a2c2b1bb-887f-4091-94f6-84d85fb0d4d8/",
       alt_name: "Agile, Scrum, Kanban & XP",
       color_code: "#47A048",
     },
@@ -518,6 +520,47 @@ const projects = {
         {
           name: "Braintree",
           iconifyClass: "fluent:payment-24-filled",
+        },
+      ],
+    },
+    {
+      id: "1",
+      name: "CHEETATOISE - Typing Test App",
+      url: "https://github.com/shakilahmedatik/cheetatoise",
+      description: "Python GUI app for testing WPM & Accuracy.",
+      languages: [
+        {
+          name: "Python",
+          iconifyClass: "logos:python",
+        },
+      ],
+    },
+    {
+      id: "3",
+      name: "MECHANIX - Car Service Portal",
+      url: "https://mechanix.netlify.app",
+      description:
+        "Full functional car servicing app that allows users to book service appointments, buy car parts & more.",
+      languages: [
+        {
+          name: "ReactJS",
+          iconifyClass: "logos:react",
+        },
+        {
+          name: "NodeJS",
+          iconifyClass: "logos:nodejs-icon",
+        },
+        {
+          name: "MongoDB",
+          iconifyClass: "vscode-icons:file-type-mongo",
+        },
+        {
+          name: "Stripe",
+          iconifyClass: "logos:stripe",
+        },
+        {
+          name: "Firebase",
+          iconifyClass: "logos:firebase",
         },
       ],
     },

@@ -54,11 +54,11 @@ export default function Greeting(props) {
                 <a
                   {...styles}
                   className="general-btn"
-                  href={greeting.resumeLink}
+                  href={greeting.downloadLink}
                   rel="noopener noreferrer"
                   target="_blank"
                 >
-                  See my Resume
+                  Download my Resume
                 </a>
               </div>
             </div>
