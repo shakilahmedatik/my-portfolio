@@ -3,6 +3,7 @@ import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import BlogsImg from "./BlogsImg";
+import YoutubeImg from "./YoutubeImg";
 import { Fade } from "react-reveal";
 import "./ContactComponent.css";
 import { greeting, contactPageData } from "../../portfolio.js";
@@ -84,7 +85,7 @@ function Contact(props) {
         <Fade bottom duration={1000} distance="40px">
           <div className="blog-heading-div">
             <div className="blog-heading-img-div">
-              <BlogsImg theme={theme} />
+              <YoutubeImg theme={theme} />
             </div>
             <div className="blog-heading-text-div">
               <h1 className="blog-heading-text" style={{ color: theme.text }}>

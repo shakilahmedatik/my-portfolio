@@ -378,6 +378,33 @@ const certifications = {
       alt_name: "Agile, Scrum, Kanban & XP",
       color_code: "#47A048",
     },
+    {
+      title: "MongoDB for SQL Pros",
+      subtitle: "MongoDB, Atlas, Compass",
+      logo_path: "mongodb.jfif",
+      certificate_link:
+        "https://university.mongodb.com/course_completion/0022ce89-a778-4f89-a943-6e7aacc004af?utm_source=copy&utm_medium=social&utm_campaign=university_social_sharing",
+      alt_name: "Agile, Scrum, Kanban & XP",
+      color_code: "#47A048",
+    },
+    {
+      title: "Math for Software Developers",
+      subtitle: "Calculus, Discrete Math, Linear Algebra",
+      logo_path: "math.jpg",
+      certificate_link:
+        "https://www.udemy.com/certificate/UC-24664b4e-375e-46c7-9096-dd8f98a2267f/",
+      alt_name: "Agile, Scrum, Kanban & XP",
+      color_code: "#47A048",
+    },
+    {
+      title: "Agile Project Management",
+      subtitle: "Agile, Scrum, Kanban & XP",
+      logo_path: "agile.jpg",
+      certificate_link:
+        "https://www.udemy.com/certificate/UC-24664b4e-375e-46c7-9096-dd8f98a2267f/",
+      alt_name: "Agile, Scrum, Kanban & XP",
+      color_code: "#47A048",
+    },
   ],
 };
 

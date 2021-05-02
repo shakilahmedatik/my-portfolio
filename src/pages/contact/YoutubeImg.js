@@ -1,8 +1,8 @@
 import React from "react";
 import Lottie from "react-lottie";
-import animationData from "../../assets/lotties/experience.json";
+import animationData from "../../assets/lotties/youtube.json";
 
-export default function ExperienceImg() {
+export default function BlogsImg() {
   const defaultOptions = {
     loop: true,
     autoplay: true,
